@@ -1,15 +1,23 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-7psmartagent-dev-102035-authRole",
-      "UnauthRoleArn": "arn:aws:iam::638146805207:role/amplify-7psmartagent-dev-102035-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::638146805207:role/amplify-7psmartagent-dev-102035-authRole",
+      "AuthRoleName": "amplify-7psmartagent-dev-03720-authRole",
+      "UnauthRoleArn": "arn:aws:iam::638146805207:role/amplify-7psmartagent-dev-03720-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::638146805207:role/amplify-7psmartagent-dev-03720-authRole",
       "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-7psmartagent-dev-102035-deployment",
-      "UnauthRoleName": "amplify-7psmartagent-dev-102035-unauthRole",
-      "StackName": "amplify-7psmartagent-dev-102035",
-      "StackId": "arn:aws:cloudformation:eu-central-1:638146805207:stack/amplify-7psmartagent-dev-102035/57512920-0a8c-11ee-9435-065a3cae1204",
-      "AmplifyAppId": "d232f9da83qhwi"
+      "DeploymentBucketName": "amplify-7psmartagent-dev-03720-deployment",
+      "UnauthRoleName": "amplify-7psmartagent-dev-03720-unauthRole",
+      "StackName": "amplify-7psmartagent-dev-03720",
+      "StackId": "arn:aws:cloudformation:eu-central-1:638146805207:stack/amplify-7psmartagent-dev-03720/069f9340-0b04-11ee-b803-022cbb3266de",
+      "AmplifyAppId": "d22t33og3k5tju"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d22t33og3k5tju",
+          "type": "manual"
+        }
+      }
     }
   }
 }

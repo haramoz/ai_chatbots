@@ -1,12 +1,12 @@
 {
-  "projectName": "7psmartagent",
+  "projectName": "7pSmartAgent",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
     "framework": "react",
     "config": {
-      "SourceDir": "src",
-      "DistributionDir": "build",
+      "SourceDir": "dist",
+      "DistributionDir": "dist",
       "BuildCommand": "npm run-script build",
       "StartCommand": "npm run-script start"
     }
