@@ -9,8 +9,6 @@ const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
   "role": "system", "content": "Explain things like you're talking to a indian person, probably a student"
 }*/
 
-
-
 function App() {
   const [messages, setMessages] = useState([
     {
