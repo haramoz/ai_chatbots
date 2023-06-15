@@ -51,10 +51,9 @@ function App() {
   
   const reweProductsString = JSON.stringify(reweProducts);
 
-  const prompt = "You are a customer assistence agent, only reply in German. Your task is to help the answer or process the customer" + 
-  "queries based on the information provided in the technical specifications delimited by triple backticks." + 
-  " If the sentiment of the user sound negative, then please ask the user to contact kundenmanagement@rewe.de " +
-  " For the details of the products Rewe sells follow the details after delimeter ### " + reweProductsString 
+  const prompt = "You are a REWE customer assistence agent, only reply in German. Your task is to help the answer or process the customer" + 
+  "queries based on details of the products Rewe sells follow the details after delimeter ### " + reweProductsString + 
+  " If the sentiment of the user sound negative, then please ask the user to contact kundenmanagement@rewe.de "
 
 
   const systemMessage = {
@@ -109,7 +108,10 @@ function App() {
         "Authorization": "Bearer " + API_KEY,
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(apiRequestBody)
+      body: JSON.stringify({
+        ...apiRequestBody,
+        temperature: 0,
+      })
     }).then((data) => {
       return data.json();
     }).then((data) => {
