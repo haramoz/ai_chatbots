@@ -6,6 +6,12 @@ Ai based chatbot with a dashboard thats hosted in Amazon Amplify right now, the 
 ## app
 - This is the ai chatbot component written in vite + React JS.
 
+- To run please move to the app/ folder and use command 
+
+<pre>npm install
+npm run dev 
+</pre>
+
 - Uses Openai API for providing the intelligence for the chatbot
 
 - The chatbot has been supplied with the following context informations, 

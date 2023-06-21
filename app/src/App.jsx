@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
+import FileUploadButton from './components/FileUploadButton';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
 const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
@@ -79,6 +80,10 @@ function App() {
     await processMessageToChatGPT(newMessages);
   };
 
+  const handleFileUpload = (fileContent) => {
+    console.log(fileContent);
+  };
+
   async function processMessageToChatGPT(chatMessages) { 
     // API is expecting objects in format of { role: "user" or "assistant", "content": "message here"}
 
@@ -126,11 +131,12 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ position:"relative", height: "800px", width: "700px"  }}>
+      <FileUploadButton onFileUpload={handleFileUpload} />
+      <div style={{ position: 'relative', height: '800px', width: '700px' }}>
         <MainContainer>
-          <ChatContainer>       
-            <MessageList 
-              scrollBehavior="smooth" 
+          <ChatContainer>
+            <MessageList
+              scrollBehavior="smooth"
               typingIndicator={isTyping ? <TypingIndicator content="7PAgent is typing" /> : null}
             >
               {messages.map((message, i) => {
@@ -138,12 +144,12 @@ function App() {
                 return <Message key={i} model={message} />
               })}
             </MessageList>
-            <MessageInput placeholder="Type message here" onSend={handleSend} />        
+            <MessageInput placeholder="Type message here" onSend={handleSend} attachButton={false} />
           </ChatContainer>
         </MainContainer>
       </div>
     </div>
-  )
+  );
 }
 
 export default App
