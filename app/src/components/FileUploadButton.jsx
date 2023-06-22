@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import { Button } from '@chatscope/chat-ui-kit-react';
 
-const FileUploadButton = ({ onClick }) => {
+const FileUploadButton = ({ onFileUpload }) => {
   let fileReader;
 
-  const handleFileRead = (e) => {
-    const content = fileReader.result;
-    // When the read is complete, call the function with the file content
-    onClick(content);
+  const handleFileRead = () => {
+    const fileContent = fileReader.result;
+    onFileUpload(fileContent);
   };
+  
 
   const handleFileChosen = (file) => {
     fileReader = new FileReader();
@@ -17,13 +17,13 @@ const FileUploadButton = ({ onClick }) => {
   };
 
   return (
-    <Button secondary>
+    <Button >
       <input
         type="file"
         id="file"
         accept=".txt"
-        onChange={e => handleFileChosen(e.target.files[0])}
-        style={{display: "none"}}
+        onChange={(e) => handleFileChosen(e.target.files[0])}
+        style={{ display: 'none' }}
       />
       <label htmlFor="file">Upload File</label>
     </Button>
@@ -31,7 +31,7 @@ const FileUploadButton = ({ onClick }) => {
 };
 
 FileUploadButton.propTypes = {
-  onClick: PropTypes.func.isRequired,
+  onFileUpload: PropTypes.func.isRequired,
 };
 
 export default FileUploadButton;
