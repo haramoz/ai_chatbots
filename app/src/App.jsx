@@ -16,21 +16,47 @@ const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
 function App() {
   const [messages, setMessages] = useState([
     {
-      message: "Guten Tag, ich bin der 7P Smart Agent! Stellen Sie mir gerne Ihre Fragen!",
+      message: "Guten Tag, ich bin der REWE customer assistence agent! Stellen Sie mir gerne Ihre Fragen!",
       sentTime: "just now",
       sender: "7PAgent"
     }
   ]);
+  
   const [isTyping, setIsTyping] = useState(false);
 
   const reweProducts = [
     {
-      name: "Organic Apples",
-      category: "Fresh Produce",
-      price: 2.99,
-      origin: "Germany"
+      "name": "Organic Bananas",
+      "category": "Fresh Produce",
+      "price": 1.99,
+      "origin": "Ecuador"
     },
-  ];
+    {
+      "name": "Organic Strawberries",
+      "category": "Fresh Produce",
+      "price": 3.49,
+      "origin": "Spain"
+    },
+    {
+      "name": "Organic Avocados",
+      "category": "Fresh Produce",
+      "price": 2.79,
+      "origin": "Mexico"
+    },
+    {
+      "name": "Organic Tomatoes",
+      "category": "Fresh Produce",
+      "price": 1.49,
+      "origin": "Italy"
+    },
+    {
+      "name": "Organic Spinach",
+      "category": "Fresh Produce",
+      "price": 2.29,
+      "origin": "Unknown"
+    }
+  ]
+  
 
   const reweProductsString = JSON.stringify(reweProducts);
 
@@ -58,7 +84,12 @@ function App() {
     await processMessageToChatGPT(newMessages);
   };
 
-  const handleFileUpload = (fileContent) => {
+  const handlePromptUpload = (fileContent) => {
+    console.log(fileContent);
+    setSystemMessage({ role: "system", content: fileContent });
+  };
+  
+  const handleInputUpload = (fileContent) => {
     console.log(fileContent);
     setSystemMessage({ role: "system", content: fileContent });
   };
@@ -104,7 +135,8 @@ function App() {
 
   return (
     <div className="App">
-      <FileUploadButton onFileUpload={handleFileUpload} />
+      <FileUploadButton onFileUpload={handlePromptUpload} />
+      <FileUploadButton onFileUpload={handleInputUpload} />
       <div style={{ position: 'relative', height: '800px', width: '700px' }}>
         <MainContainer>
           <ChatContainer>
