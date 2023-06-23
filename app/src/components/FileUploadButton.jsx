@@ -1,14 +1,29 @@
 import PropTypes from 'prop-types';
 import { Button } from '@chatscope/chat-ui-kit-react';
 
-const FileUploadButton = ({ onFileUpload }) => {
+/*
+const handleInputUpload = (fileContent) => {
+    console.log("Url uploaded!")
+    console.log(fileContent);
+    
+    const urlPattern = /^(ftp|http|https):\/\/[^ "]+$/;
+  
+    if (urlPattern.test(fileContent)) {
+      var scrappedJsonString = fetchScrapedData(fileContent);
+      setSystemMessage({ role: "system", content: scrappedJsonString });
+    } else {
+      console.log("Invalid URL");
+    }
+  };
+   */
+
+const FileUploadButton = ({ onFileUpload, buttonText }) => {
   let fileReader;
 
   const handleFileRead = () => {
     const fileContent = fileReader.result;
     onFileUpload(fileContent);
   };
-  
 
   const handleFileChosen = (file) => {
     fileReader = new FileReader();
@@ -17,7 +32,7 @@ const FileUploadButton = ({ onFileUpload }) => {
   };
 
   return (
-    <Button >
+    <Button>
       <input
         type="file"
         id="file"
@@ -25,13 +40,14 @@ const FileUploadButton = ({ onFileUpload }) => {
         onChange={(e) => handleFileChosen(e.target.files[0])}
         style={{ display: 'none' }}
       />
-      <label htmlFor="file">Upload File</label>
+      <label htmlFor="file">{buttonText}</label>
     </Button>
   );
 };
 
 FileUploadButton.propTypes = {
   onFileUpload: PropTypes.func.isRequired,
+  buttonText: PropTypes.string.isRequired,
 };
 
 export default FileUploadButton;

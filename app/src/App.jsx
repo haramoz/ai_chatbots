@@ -11,6 +11,9 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
+import scrapeWebsite from './components/Webscrapper';
+
+
 const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
 
 function App() {
@@ -21,7 +24,7 @@ function App() {
       sender: "7PAgent"
     }
   ]);
-  
+
   const [isTyping, setIsTyping] = useState(false);
 
   const reweProducts = [
@@ -69,6 +72,15 @@ function App() {
     content: prompt
   });
   
+  /*async function fetchScrapedData(url) {
+    const data = await scrapeWebsite(url);
+    console.log(data);
+  
+    const jsonString = JSON.stringify(data);
+    return jsonString;
+  }*/
+  
+  
 
   const handleSend = async (message) => {
     const newMessage = {
@@ -85,15 +97,39 @@ function App() {
   };
 
   const handlePromptUpload = (fileContent) => {
+    console.log("Prompt changed!")
     console.log(fileContent);
-    setSystemMessage({ role: "system", content: fileContent });
+    //alert('Prompt changed!');
+    
+
+    const urlPattern = /^(ftp|http|https):\/\/[^ "]+$/;
+  
+    if (urlPattern.test(fileContent)) {
+      //var scrappedJsonString = fetchScrapedData(fileContent);
+      //setSystemMessage({ role: "system", content: scrappedJsonString });
+
+      setMessages([
+        {
+          message: "Functionality coming soon!!",
+          sentTime: "just now",
+          sender: "7PAgent"
+        }
+      ]);
+    } else {
+      //console.log("Not an URL, treating as a text prompt");
+      setSystemMessage({ role: "system", content: fileContent });
+
+      setMessages([
+        {
+          message: "Personality changed!",
+          sentTime: "just now",
+          sender: "7PAgent"
+        }
+      ]);
+
+    }
   };
   
-  const handleInputUpload = (fileContent) => {
-    console.log(fileContent);
-    setSystemMessage({ role: "system", content: fileContent });
-  };
-
   async function processMessageToChatGPT(chatMessages) {
     // API is expecting objects in format of { role: "user" or "assistant", "content": "message here"}
     let apiMessages = chatMessages.map((messageObject) => {
@@ -135,8 +171,9 @@ function App() {
 
   return (
     <div className="App">
-      <FileUploadButton onFileUpload={handlePromptUpload} />
-      <FileUploadButton onFileUpload={handleInputUpload} />
+      <FileUploadButton onFileUpload={handlePromptUpload} buttonText="Personality change" />
+      <FileUploadButton onFileUpload={handlePromptUpload} buttonText="Url configuration" />
+
       <div style={{ position: 'relative', height: '800px', width: '700px' }}>
         <MainContainer>
           <ChatContainer>
