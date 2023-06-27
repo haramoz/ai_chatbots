@@ -11,7 +11,7 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
-import scrapeWebsite from './components/Webscrapper';
+//import scrapeWebsite from './components/Webscrapper';
 
 
 const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
