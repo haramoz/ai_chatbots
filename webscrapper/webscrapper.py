@@ -11,6 +11,14 @@ def get_mission_content(mission_header):
         mission_content = ''
     return mission_content
 
+def get_profile_content(profile_header):
+    profile_content = ''
+    ul = profile_header.find_next('ul')
+    if ul:
+        li_items = ul.find_all('li')
+        profile_content = [li.text.strip() for li in li_items]
+    return profile_content
+
 def scrape_job_listings(url):
     job_listings = []
 
@@ -65,20 +73,35 @@ def scrape_job_listings(url):
                     haupttatigkeit = []
                     
                 # Extract the contents of the <p> tag after "Ihre Mission"
-                mission_header = article_soup.find('strong', text=lambda t: t and t.__contains__('Mission'))
+                """mission_header = article_soup.find('strong', text=lambda t: t and t.__contains__('Mission'))
 
                 if mission_header:
                     mission_content = get_mission_content(mission_header)
                 else:
                     mission_header = article_soup.find('h2', text=lambda t: t and t.__contains__('Mission'))
-                    mission_content = get_mission_content(mission_header)
+                    if mission_header:
+                        mission_content = get_mission_content(mission_header)
+                    else:
+                        mission_content = ""
+                """
+
+                profile_header = article_soup.find('h2', text=lambda t: t and t.__contains__('Ihr Profil'))
+
+                if profile_header:
+                    profile_content = get_profile_content(profile_header)
+                else:
+                    profile_header = article_soup.find('strong', text=lambda t: t and t.__contains__('Bewegt mehr'))
+                    if profile_header:
+                        profile_content = get_profile_content(profile_header)
+                    else:
+                        profile_content = ""
 
                 # Store the extracted information in the job_data dictionary
                 job_data['Job Title'] = job_title
                 job_data['Description'] = job_description
-                job_data['Mission'] = mission_content
-                job_data['Ihre_Aufgaben'] = haupttatigkeit
-                job_data['Profile'] = None
+                #job_data['Mission'] = mission_content
+                job_data['Aufgaben'] = haupttatigkeit
+                job_data['Profile'] = profile_content
                 job_data['Link'] = link
 
                 # Append the job_data dictionary to the job_listings list
@@ -88,8 +111,8 @@ def scrape_job_listings(url):
         print("Error accessing the website.")
 
     # Save the job_listings data as JSON
-    with open('job_listings.json', 'w') as f:
-        json.dump(job_listings, f, indent=4)
+    with open('job_listings.json', 'w', encoding='utf-8') as f:
+        json.dump(job_listings, f, indent=4, ensure_ascii=False)
 
 # URL of the job listings page
 url = 'https://www.it.nrw/karriere/jobs'

@@ -2,86 +2,115 @@
     {
         "Job Title": "Sachbearbeiterin/Sachbearbeiter im Personal-Grundsatz (m/w/d)",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: ein ganzes Bundesland vorw\u00e4rtsbringen. Als Sachbearbeiterin/Sachbearbeiter im Personal/Grundsatz (m/w/d) wirken Sie in einem sich st\u00e4ndig wandelnden Umfeld ma\u00dfgeblich an der Weiterentwicklung unserer Personalarbeit mit. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [
-            "Sie bewerten Stellen und T\u00e4tigkeiten. Dabei pr\u00fcfen Sie Rollenbeschreibungen und T\u00e4tigkeitsdarstellungen, erarbeiten Stellenbewertungen und Eingruppierungsempfehlungen.",
+        "Aufgaben": [
+            "Sie bewerten Stellen und Tätigkeiten. Dabei prüfen Sie Rollenbeschreibungen und Tätigkeitsdarstellungen, erarbeiten Stellenbewertungen und Eingruppierungsempfehlungen.",
             "Sie beraten die Fachbereiche bei der Erstellung von Stellenprofilen und der Ausrichtung der Stellenbewertungen.",
-            "Sie arbeiten in verschiedenen Projekten im Personalbereich mit: z.\u00a0B. zur Verbesserung von Personalprozessen, Ausarbeitung von Dienstvereinbarungen und -anweisungen, Mustererstellung und -verwaltung oder an internen Schulungen zu Personalthemen."
+            "Sie arbeiten in verschiedenen Projekten im Personalbereich mit: z. B. zur Verbesserung von Personalprozessen, Ausarbeitung von Dienstvereinbarungen und -anweisungen, Mustererstellung und -verwaltung oder an internen Schulungen zu Personalthemen."
         ],
-        "Profile": null,
+        "Profile": [
+            "Abgeschlossenes Fachhochschul- oder Bachelorstudium im Bereich Verwaltung, Wirtschafts-, Sozial-, Rechtswissenschaften, MINT oder einem vergleichbaren Studiengang; Alternativ: Staatlicher Abschluss als Personalfachkauffrau/-mann oder Betriebswirtin/-wirt",
+            "Sicherer Umgang mit MS-Office",
+            "Sicheres Deutsch (in Wort und Schrift)"
+        ],
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532232"
     },
     {
-        "Job Title": "Statistikexpertin/Statistikexperte (m/w/d) f\u00fcr \u201eVolkswirtschaftliche Gesamtrechnungen\u201c",
+        "Job Title": "Statistikexpertin/Statistikexperte (m/w/d) für „Volkswirtschaftliche Gesamtrechnungen“",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: Mit statistischen Daten ein ganzes Bundesland erkl\u00e4ren und so eine Grundlage f\u00fcr wichtige Entscheidungen schaffen. Als Statistikexpertin/Statistikexperte (m/w/d) f\u00fcr \u201eVolkswirtschaftliche Gesamtrechnungen\u201c arbeiten Sie an volkswirtschaftlichen Themen und erstellen zuverl\u00e4ssige und qualitativ hochwertige Konjunktur-Daten f\u00fcr Politik, Verwaltung, Wissenschaft und \u00d6ffentlichkeit bereit. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [
-            "Sie f\u00fchren ein Team von sechs Personen.",
-            "Sie berechnen wichtige Kennzahlen auf folgenden NRW-Ebenen: L\u00e4nder, Kreise, kreisfreie St\u00e4dte und z.\u00a0T. Gemeinden.",
-            "Im Arbeitskreises \u201eVGR der L\u00e4nder\u201c entwickeln Sie die Berechnungsmethoden weiter.",
-            "Sie forschen zu Daten der amtlichen Wirtschaftsstatistiken mit Fokus VGR. Daf\u00fcr vermarkten Sie statistische Ergebnisse z.\u00a0B. auf Fachtagungen und durch Fachbeitr\u00e4ge.",
-            "Sie f\u00fchren \u2013 z.\u00a0T. in Kooperation mit der Wissenschaft \u2013 Forschungsprojekte durch zur Weiterentwicklung von Methoden und zur Qualit\u00e4ts-Verbesserung."
+        "Aufgaben": [
+            "Sie führen ein Team von sechs Personen.",
+            "Sie berechnen wichtige Kennzahlen auf folgenden NRW-Ebenen: Länder, Kreise, kreisfreie Städte und z. T. Gemeinden.",
+            "Im Arbeitskreises „VGR der Länder“ entwickeln Sie die Berechnungsmethoden weiter.",
+            "Sie forschen zu Daten der amtlichen Wirtschaftsstatistiken mit Fokus VGR. Dafür vermarkten Sie statistische Ergebnisse z. B. auf Fachtagungen und durch Fachbeiträge.",
+            "Sie führen – z. T. in Kooperation mit der Wissenschaft – Forschungsprojekte durch zur Weiterentwicklung von Methoden und zur Qualitäts-Verbesserung."
         ],
-        "Profile": null,
+        "Profile": [
+            "Diplom oder Master einer wissenschaftlichen Hochschule (oder vergleichbar) im Bereich Wirtschaftswissenschaften, Statistik, Wirtschaftsstatistik oder Wirtschaftsmathematik oder einen entsprechenden Abschluss aus einem vergleichbaren Studiengang",
+            "Fundiertes Know-how über (methodische) volkswirtschaftliche Zusammenhänge",
+            "Erfahrung in (Forschungs-)Projekten, idealerweise mit volkswirtschaftlichem Bezug",
+            "Erfahrung in der Anwendung statistischer Methoden, idealerweise in ökonometrischen Modellen",
+            "Know-how im Umgang mit einer Statistiksoftware (z. B. SAS, SPSS, R oder STATA)",
+            "Sicheres Deutsch (in Wort und Schrift)"
+        ],
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532207"
     },
     {
-        "Job Title": "Sachbearbeiterin/Sachbearbeiter (m/w/d) f\u00fcr den technischen und fachlichen Verfahrenssupport",
+        "Job Title": "Sachbearbeiterin/Sachbearbeiter (m/w/d) für den technischen und fachlichen Verfahrenssupport",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: ein ganzes Bundesland digital vorw\u00e4rtsbringen. Als Sachbearbeiterin/Sachbearbeiter (m/w/d) f\u00fcr den technischen und fachlichen Verfahrenssupport des Verfahrens Online-Sicherheitspr\u00fcfung (OSiP) machen Sie NRW und andere Bundesl\u00e4nder sicherer, indem Sie Prozesse der Sicherheits- und Zuverl\u00e4ssigkeitspr\u00fcfung digitaler und schneller machen. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [
-            "Sie \u00fcbernehmen den allgemeinen Anwendersupport sowie die Benutzerverwaltung.",
+        "Aufgaben": [
+            "Sie übernehmen den allgemeinen Anwendersupport sowie die Benutzerverwaltung.",
             "Sie arbeiten im Bereich des First- & Second-Level-Supports.",
-            "Sie f\u00fchren die dazugeh\u00f6rigen Dokumentationen durch."
+            "Sie führen die dazugehörigen Dokumentationen durch."
         ],
-        "Profile": null,
+        "Profile": [
+            "Abgeschlossenes Fachhochschul- oder Bachelorstudium im Bereich Informationstechnik oder in einem Studiengang mit IT-Bezug; Alternativ: Abschluss als Operative Professional oder langjährige einschlägige Berufserfahrung in der IT",
+            "Gutes Grundverständnis in IT-Systemen",
+            "Sicheres Deutsch (in Wort und Schrift)"
+        ],
         "Link": "http://bewerbung.nrw/BVPlus/?stellenID=100532199"
     },
     {
-        "Job Title": "Sachbearbeiterin/Sachbearbeiter Statistik (m/w/d) im Service \u201e\u00dcbergreifende Analysen\u201c",
+        "Job Title": "Sachbearbeiterin/Sachbearbeiter Statistik (m/w/d) im Service „Übergreifende Analysen“",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: Mit statistischen Daten ein ganzes Bundesland erkl\u00e4ren und so eine Grundlage f\u00fcr wichtige Entscheidungen schaffen. Als Sachbearbeiterin/Sachbearbeiter Statistik (m/w/d) im Service \u201e\u00dcbergreifende Analysen\u201c arbeiten Sie themen\u00fcbergreifend und f\u00fchren im Team komplexe fachliche gesellschaftlich relevante Analysen im Auftrag der Landesverwaltung durch. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [
-            "Sie erarbeiten gemeinsam mit Kundinnen und Kunden Auswertungskonzepte zu unterschiedlichen Fragestellungen und f\u00fchren z.\u00a0T. komplexe Auswertungen durch.",
-            "Sie werten amtliche und nicht-amtliche Datens\u00e4tze aus, ggf. unter Verwendung fortgeschrittener wissenschaftlicher Methoden. Bei Bedarf verkn\u00fcpfen Sie dabei verf\u00fcgbare Datenquellen.",
-            "Sie ber\u00fccksichtigen wissenschaftliche Standards und geltende Qualit\u00e4tskriterien. Hierbei arbeiten Sie ausschlie\u00dflich codegest\u00fctzt und dokumentieren Ihr Vorgehen.",
-            "Dar\u00fcber hinaus pr\u00e4sentieren Sie die Ergebnisse, bei Bedarf auch in interaktiven digitalen Formaten.",
-            "Sie wirken im Auftrag der Landesverwaltung NRW an der frist-, zeit- und budgetgerechten Konzeption und Durchf\u00fchrung von Projekten mit.",
-            "Sie recherchieren Fachliteratur und erschlie\u00dfen sich neue externe Datenquellen sowie weiterf\u00fchrende statistische Methoden."
+        "Aufgaben": [
+            "Sie erarbeiten gemeinsam mit Kundinnen und Kunden Auswertungskonzepte zu unterschiedlichen Fragestellungen und führen z. T. komplexe Auswertungen durch.",
+            "Sie werten amtliche und nicht-amtliche Datensätze aus, ggf. unter Verwendung fortgeschrittener wissenschaftlicher Methoden. Bei Bedarf verknüpfen Sie dabei verfügbare Datenquellen.",
+            "Sie berücksichtigen wissenschaftliche Standards und geltende Qualitätskriterien. Hierbei arbeiten Sie ausschließlich codegestützt und dokumentieren Ihr Vorgehen.",
+            "Darüber hinaus präsentieren Sie die Ergebnisse, bei Bedarf auch in interaktiven digitalen Formaten.",
+            "Sie wirken im Auftrag der Landesverwaltung NRW an der frist-, zeit- und budgetgerechten Konzeption und Durchführung von Projekten mit.",
+            "Sie recherchieren Fachliteratur und erschließen sich neue externe Datenquellen sowie weiterführende statistische Methoden."
         ],
-        "Profile": null,
+        "Profile": [
+            "Abgeschlossenes Fachhochschul- oder Bachelorstudium der Statistik, Sozial-/Wirtschaftswissenschaften oder in einem Studiengang mit nachgewiesenem Bezug zur Statistik (z. B. Volkswirtschaft, Betriebswirtschaft, Agrarwissenschaft, Umweltwissenschaft, Wirtschaftsinformatik, Mathematik oder Geographie)",
+            "Vertieftes Wissen in Bezug auf statistische Methoden zur Aufbereitung, Verknüpfung und Auswertung von Daten",
+            "Sehr gutes Know-how im Umgang mit statistischer Erhebungssoftware, vorzugsweise R",
+            "Know-how, komplexe statistische Sachverhalte strukturiert und verständlich für unterschiedliche Zielgruppen darzustellen",
+            "Sicheres Deutsch (in Wort und Schrift)"
+        ],
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532196"
     },
     {
-        "Job Title": "IT-Managerinnen / IT-Manager: Weiterentwicklung und Betrieb IT-Infrastruktur f\u00fcr die Landesverwaltung NRW (m/w/d)",
+        "Job Title": "IT-Managerinnen / IT-Manager: Weiterentwicklung und Betrieb IT-Infrastruktur für die Landesverwaltung NRW (m/w/d)",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW geht es um mehr als \u201enur\u201d einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: ein ganzes Bundesland digital vorw\u00e4rtsbringen. Als IT-Managerin/IT-Manager (m/w/d) arbeiten Sie an der Weiterentwicklung und dem Betrieb unserer IT-Infrastrukturen und gew\u00e4hrleisten so den sicheren Betrieb der IT-Services der Landesverwaltung. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [],
-        "Profile": null,
+        "Aufgaben": [],
+        "Profile": [
+            "Diplom oder Master einer wissenschaftlichen Hochschule (oder vergleichbar) mit dem Schwerpunkt Informationstechnik (Informatik, Geoinformatik, Wirtschaftsinformatik, Physik, Chemie, Elektrotechnik, Ingenieurwissenschaften oder Mathematik oder vergleichbar)",
+            "Know-how in mindestens einem der nachstehenden technischen Bereiche:\nNetzwerk\nSicherheitsinfrastrukturen\nRZ-Infrastrukturen (z. B. Server, Backup, Container, Virtualisierung)\nDatenbanken/Middleware\nIT-Arbeitsplatzumgebungen\nDruck, Kuvertierung und Scantechnik",
+            "Netzwerk",
+            "Sicherheitsinfrastrukturen",
+            "RZ-Infrastrukturen (z. B. Server, Backup, Container, Virtualisierung)",
+            "Datenbanken/Middleware",
+            "IT-Arbeitsplatzumgebungen",
+            "Druck, Kuvertierung und Scantechnik",
+            "Erfahrung in mindestens einem der nachstehenden Bereiche der Informationstechnik (auch aus Praktika oder Studium):\nIT- und RZ-Betriebsaufgaben\nIT-Service Management nach ITIL\nEntwicklung von IT-Architekturen\nDurchführung von kleinen oder großen IT-Projekten",
+            "IT- und RZ-Betriebsaufgaben",
+            "IT-Service Management nach ITIL",
+            "Entwicklung von IT-Architekturen",
+            "Durchführung von kleinen oder großen IT-Projekten",
+            "Sicheres Deutsch (in Wort und Schrift)",
+            "Für einige Bereiche ist eine erfolgreich abgeschlossene Sicherheitsüberprüfung „SÜ2“ (wird im Rahmen des Bewerbungsprozesses angestoßen) erforderlich"
+        ],
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532191"
     },
     {
-        "Job Title": "Bewerbungspool: Statistik-Fachkr\u00e4fte f\u00fcr IT.NRW (m/w/d)",
+        "Job Title": "Bewerbungspool: Statistik-Fachkräfte für IT.NRW (m/w/d)",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW ist jeder Moment sinnvoll. Denn bei uns geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: Mit statistischen Daten ein ganzes Bundesland erkl\u00e4ren und so eine Grundlage f\u00fcr wichtige Entscheidungen schaffen. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [],
-        "Profile": null,
+        "Aufgaben": [],
+        "Profile": "",
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532191"
     },
     {
-        "Job Title": "Bewerbungspool: IT-Fachkr\u00e4fte f\u00fcr IT.NRW (m/w/d)",
+        "Job Title": "Bewerbungspool: Verwaltungs-Fachkräfte für IT.NRW (m/w/d)",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW ist jeder Moment sinnvoll. Denn bei uns geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: Die Digitalisierung eines ganzen Bundeslandes. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [],
-        "Profile": null,
+        "Aufgaben": [],
+        "Profile": "",
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532191"
     },
     {
-        "Job Title": "Bewerbungspool: Verwaltungs-Fachkr\u00e4fte f\u00fcr IT.NRW (m/w/d)",
+        "Job Title": "Bewerbungspool: IT-Fachkräfte für IT.NRW (m/w/d)",
         "Description": "\"Social Media\"-Einstellungen",
-        "Mission": "Bei IT.NRW ist jeder Moment sinnvoll. Denn bei uns geht es um mehr als \u201enur\u201c einen Job. Es geht um einen wichtigen gesellschaftlichen Auftrag: Sie halten im Hintergrund die F\u00e4den zusammen und stellen sicher, dass unsere Besch\u00e4ftigten f\u00fcr zukunftsweisende IT und verl\u00e4ssliche Statistik f\u00fcr NRW sorgen k\u00f6nnen. Bringen Sie sich jetzt ein und leisten Sie einen wichtigen Beitrag f\u00fcr 18 Millionen B\u00fcrgerinnen und B\u00fcrger in NRW!",
-        "Ihre_Aufgaben": [],
-        "Profile": null,
+        "Aufgaben": [],
+        "Profile": "",
         "Link": "https://bewerbung.nrw/BVPlus/?stellenID=100532191"
     }
 ]
